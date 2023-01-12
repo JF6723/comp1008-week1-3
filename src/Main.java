@@ -5,7 +5,7 @@ public class Main {
             //%d is a placeholder for a number in base 10 (i.e. int)
             //%s is a placeholder for a String
             //%n is a new line character
-            System.out.printf("%3d %s %n",i);
+            System.out.printf("%3d %s %n",i, (i%20 == 0)?"Java":"");
         }
     }
 }
